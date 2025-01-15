@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Comfortaa', Arial, sans-serif;
+    background-color: #282828;
+    color: #f4de64;
+}
+
+header {
+    background-color: #282828;
+    color: #f4de64;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #f4de64;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.photo {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #f4de64;
+    border-radius: 10px;
+}
+
+.members {
+    flex: 1;
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #f4de64;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.members .description {
+    margin-bottom: 10px;
+}
+
+.members h2 {
+    text-align: center;
+    color: #f4de64;
+    margin-bottom: 10px;
+}
+
+
+
+.members li {
+    margin: 10px 0;
+}
+
+.members a {
+    color: #f4de64;
+    text-decoration: none;
+}
+
+.members a:hover {
+    text-decoration: underline;
+}
+
+.members1 {
+    text-align: center;
+}
+
+.members1 a {
+    color: #f4de64;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.members1 a:hover{
+    text-decoration: underline;
+}
+
+.photo1 {
+    flex: 2;
+}
+
+.photo1 img {
+    width: 640px;
+    height: auto;
+    border: 2px solid #f4de64;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block {
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #f4de64;
+}
+
+.block h2 {
+    color: #f4de64;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.block li {
+    margin: 10px 0;
+}
+
+.block a {
+    color: #f4de64;
+    text-decoration: none;
+}
+
+.block a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #f4de64;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
